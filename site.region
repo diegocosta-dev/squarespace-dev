@@ -19,9 +19,10 @@
         </h1>
       </header>
 
-      <!-- cms content injection point -->
-      <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}
+      <main class="content">
+        <section id="page" role="main" data-content-field="main-content">
+          {squarespace.main-content}
+        </section>
       </main>
 
       <!--Footer with open block field -->
